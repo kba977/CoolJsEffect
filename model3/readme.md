@@ -1,3 +1,3 @@
-效果如下:
+打字机效果
 
 ![effect](./effect.gif)

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script type="text/javascript" src="./js/printer.js"></script>
+</head>
+<body>
+    <div id="about" style="text-align: center; margin:0 auto -180px auto"><br>
+    </div>
+
+    <script>
+        var str = '<br>This is a demo 1<br>';
+        str += '<br>This is a demo 1<br>';
+        str += '<br>This is a demo 2<br>';
+        str += '<br>This is a demo 3<br>';
+        str += '<br>This is a demo 4<br>';
+        str += '<br>This is a demo 5<br>';
+        str += '<br>This is a demo 6<br>';
+        str += '<br>This is a demo 7<br>';
+        str += '<br>This is a demo 8<br>';
+
+
+        Printer.init(str, {
+            "speed": 100,
+            "selector": 'about',
+            "hasCur": false,
+            "lnStr": ""
+        }).print();
+    </script>
+</body>
+</html>
